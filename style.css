@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.header-area{
+  /* border: 2px solid black; */
+  height: 500px;
+  background-image: url(image/header-bg.png);
+  background-repeat: no repeat;
+  
+  
+}
+.header-div1{
+  width: 40%;
+  /* border: 2px black dotted; */
+  height: 300px;
+  float:left;
+  padding-left: 50px;
+  padding-top: 70px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.header-div2{
+  width: 40%;
+  /* border: 2px black dashed; */
+  height: 370px;
+  float: right;
+  margin-right: 40px;
+  margin-top: 60px;
+}
+.header-div2 img{
+  width: 80%;
+  height: 100%;
+}
+.header-text{
+  margin: 5px;
+}
+.header-div1 h2{
+  color: orange;
+}
+.header-div1 a{
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  color: black;
+  background-color: orange;
+  text-decoration: none;
+  width:20px;
+}
+.header-div1 a:hover{
+  color:brown;
+}
+
+.biography-area{
+  /* border: 2px solid black; */
+  height: 500px;
+  background-image: url(image/biography-bg.png);
+  background-repeat: no repeat;
+}
+.biography-div1{
+  width: 40%;
+  /* border: 2px black dashed; */
+  height: 370px;
+  float: left;
+  padding-left: 70px;
+  /* padding-top: 70px; */
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.biography-div2{
+  width: 40%;
+  /* border: 2px black dotted; */
+  height: 300px;
+  float:right;
+  margin-right: 40px;
+  margin-top: 60px;
+  padding-left: 50px;
+  padding-top: 70px;
+  
+}
+.biography-div1 img{
+  width: 80%;
+  height: 100%;
+}
+.biography-div2 a{
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  color: black;
+  background-color: orange;
+  text-decoration: none;
+  width:30px;
+}
+.biography-text{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.biography-div2 a:hover{
+  color:brown;
+}
+.main-area{
+  /* border: 2px solid black; */
+  height: 500px;
+  background-image: url(image/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+.main-area h2{
+  text-align: center;
+  
+}
+.main-div1{
+  border: 1px solid white;
+  width: 27%;
+  height: 370px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 60px;
+  box-shadow: 3px 3px 40px grey;
+  
+}
+.main-div2{
+  border: 1px solid white;
+  width: 27%;
+  height: 370px;
+  float:left;
+  margin-left: 90px;
+  margin-top: 60px;
+  box-shadow: 2px 2px 40px grey;
+}
+.main-div3{
+  border: 1px solid white;
+  width: 27%;
+  height: 370px;
+  float:right;
+  margin-right: 40px;
+  margin-top: 60px;
+  box-shadow: 3px 3px 40px grey;
+}
+.main-area img{
+  height: 100%;
+  width: 100%;
+}
+
+.article-area{
+  /* border: 2px solid black; */
+  height: 500px;
+  background-image: url(image/footer-bg.png);
+  background-repeat: no-repeat;
+}
+#article-text{
+  font-size: 18px;
+}
+.article-area h2{
+  text-align: center;
+}
+.article-area h4{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.article-area p{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+
+.article-div1{
+ border: 2px solid rgb(240, 92, 117);
+ border-radius: 5px;
+ height: 150px;
+ width: 70%;
+ background-color: rgb(240, 92, 117);
+ margin: 0 auto;
+ margin-top: 50px;
+}
+.article-div1 h5{
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+.article-div1 h3{
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+.footer-area{
+  /* border: 2px solid black; */
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.footer-area p{
+  text-align: center;
+  margin: 10px;
+}
+#footer-name{
+  color:orange;
+  font-weight: bold;
+  
+}
